@@ -1,0 +1,11 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="f:\tfs\velov\velov\velov.windows\obj\x86\release\intermediatexaml\velov.windows.exe" HashGuid="e675fb5c-32f8-400f-1f00-4701e1b12fcf" />
+    <ReferenceAssembly PathName="c:\users\jeremy\appdata\local\microsoft sdks\windows\v8.1\extensionsdks\bing.maps.xaml\1.313.0825.0\references\commonconfiguration\neutral\bing.maps.winmd" HashGuid="dcdce9e5-521a-6d20-3956-9df814dff813" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\microsoft.vclibs\12.0\references\commonconfiguration\neutral\platform.winmd" HashGuid="58b6b6d1-928e-9908-9804-eb460e5e101b" />
+    <ReferenceAssembly PathName="f:\tfs\velov\packages\newtonsoft.json.6.0.5\lib\netcore45\newtonsoft.json.dll" HashGuid="e70f704a-5345-3796-c57b-a99765c2073e" />
+    <ReferenceAssembly PathName="f:\tfs\velov\packages\nito.asyncex.3.0.0\lib\netcore45\nito.asyncex.concurrent.dll" HashGuid="28ae9d87-d27d-f841-3836-581fedf97872" />
+    <ReferenceAssembly PathName="f:\tfs\velov\packages\nito.asyncex.3.0.0\lib\netcore45\nito.asyncex.dll" HashGuid="3db4baf3-8fbe-75a5-7b73-5bf9b316e3ee" />
+    <ReferenceAssembly PathName="f:\tfs\velov\packages\nito.asyncex.3.0.0\lib\netcore45\nito.asyncex.enlightenment.dll" HashGuid="d3c3da7a-9447-f34d-1500-440c951deb2c" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

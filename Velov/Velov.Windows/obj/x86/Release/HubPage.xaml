@@ -1,0 +1,64 @@
+﻿<Page
+    x:Name="PageRoot"    
+    x:Class="Velov.HubPage"
+    
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:bm="using:Bing.Maps"
+    
+    
+    mc:Ignorable="d">
+    <Page.Resources>
+        <Style TargetType="Button" >
+
+            
+
+
+            <Setter Property="Background" Value="Black"/>
+            <Setter Property="Opacity" Value="0.8"/>
+            <Setter Property="Content" Value="?"></Setter>
+
+            <!--<Setter Property="RenderTransform">
+                <Setter.Value>
+                    <ScaleTransform ScaleX="0.5" ScaleY="0.5"></ScaleTransform>
+                </Setter.Value>
+            </Setter>-->
+
+            <!--<Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid>
+                            <Ellipse Fill="Black"/>
+                            <TextBlock FontSize="30" Text="{TemplateBinding Content}" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>-->
+        </Style>
+
+
+        <ResourceDictionary x:Key="Dark">
+            <ResourceDictionary.ThemeDictionaries>
+                <ResourceDictionary  x:Key="Dark">
+                    <SolidColorBrush x:Key="ButtonPointerOverForegroundThemeBrush" Color="Red" />
+                    <SolidColorBrush x:Key="ButtonPointerOverBackgroundThemeBrush" Color="Transparent" />
+                </ResourceDictionary>
+            </ResourceDictionary.ThemeDictionaries>
+        </ResourceDictionary>
+        
+    </Page.Resources>
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <bm:Map Credentials="AsTjfCDew3xOExyGT3sOMz_KdTVYDf50o_mGma9KvJmtO3QSkuj-N1KkyGocYWGl" x:Name="myMap" ZoomLevel="13" ViewRestriction="OneWorldOnly" >
+            <bm:Map.Center>
+                <bm:Location Latitude="45.7600" Longitude="4.8400"></bm:Location>
+            </bm:Map.Center>
+        </bm:Map> 
+    </Grid>
+</Page>
+
+
+<!--Margin="-588,-10,588,10"-->
+<!--DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"-->    
+

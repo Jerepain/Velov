@@ -1,0 +1,6 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-de"
+"ResourceDimensions"		"language-de-de"
+
+[Files]
+"F:\TFS\Velov\Velov\Velov.WindowsPhone\obj\Release\split.language-de.pri"			"resources.pri"

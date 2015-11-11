@@ -1,0 +1,10 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="f:\tfs\velov\velov\velov.windowsphone\obj\release\intermediatexaml\velov.windowsphone.exe" HashGuid="70217804-7772-4557-bc02-c64e6a8b5817" />
+    <ReferenceAssembly PathName="f:\tfs\velov\packages\newtonsoft.json.6.0.5\lib\portable-net45+wp80+win8+wpa81\newtonsoft.json.dll" HashGuid="96120131-2625-5747-239a-d2fb6f2e1188" />
+    <ReferenceAssembly PathName="f:\tfs\velov\packages\nito.asyncex.3.0.0\lib\wpa81\nito.asyncex.concurrent.dll" HashGuid="28ae9d87-d27d-f841-3836-581fedf97872" />
+    <ReferenceAssembly PathName="f:\tfs\velov\packages\nito.asyncex.3.0.0\lib\wpa81\nito.asyncex.dll" HashGuid="3db4baf3-8fbe-75a5-7b73-5bf9b316e3ee" />
+    <ReferenceAssembly PathName="f:\tfs\velov\packages\nito.asyncex.3.0.0\lib\wpa81\nito.asyncex.enlightenment.dll" HashGuid="90aba3a8-b2ef-22d1-b334-91ec959688b2" />
+    <ReferenceAssembly PathName="f:\tfs\velov\packages\system.device.location.portable.1.0.0\lib\system.device.portable.dll" HashGuid="d4789cfd-652c-7c42-3c38-d5c650ba77d0" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>
